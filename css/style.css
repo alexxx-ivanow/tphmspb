@@ -1,0 +1,88 @@
+body{
+	font-family:arial;
+}
+
+.top-up{
+	background:#f2f8ff;
+}
+.top-up .col-lg-3{	
+	height:137px;
+}
+.top-up img{
+	margin-top:20px;
+	margin-left:15px;
+}
+.top-up p{
+	color:#2563b7;
+	font-family:Arial;
+}
+
+.top-up .fa-search {
+    margin-left: -28px;
+    position: absolute;
+    margin-top: 25px;
+    color:#231f20;
+}
+
+.top-up input[type="submit"] {
+    width: 20px;
+    position: absolute;
+    background: rgba(255, 0, 0, 0);
+    height: 20px;
+    padding: 0;
+    margin-left: -33px;
+    color: #eff6ff;
+    margin-top: 23px;
+    text-indent: 100%;
+    border: 0;
+}
+.top-up input[type="text"] {
+	width:215px;
+	height:27px;
+	border:1px solid #BFCBDB;
+	border-radius:3px;
+	padding-left: 8px;
+	margin-top:20px;
+}
+.top-up input[type="text"]::-webkit-input-placeholder {color:#2563b7; font-size:13px; }
+.top-up input[type="text"]::-moz-placeholder {color:#2563b7; font-size:13px;}/* Firefox 19+ */
+.top-up input[type="text"]:-moz-placeholder {color:#2563b7; font-size:13px;}/* Firefox 18- */
+.top-up input[type="text"]:-ms-input-placeholder {color:#2563b7; font-size:13px;}
+
+.top-search{
+	text-align:right;
+}
+.top-phone-up{
+	font-size:12px;
+	margin-top:8px;
+}
+.top-phone{
+	font-size:21px;
+	margin-top:-21px;
+}
+.top-phone .tp-2{color:#ff0000;font-size:39px;display: inline-block;padding-top: 6px;font-weight:600;}
+
+.top-phone .tp-1 {
+    margin-top: 15px;
+    display: inline-block;
+    float: left;
+}
+.top-address {
+    margin-top: 60px;
+}
+
+.top-email {
+    margin-top: 77px;
+    font-size: 18px;
+    text-align: center;
+}
+.top-menu{
+	background:#164c95;
+	height:35px;
+	box-shadow: 0 8px 8px #103568 inset; 
+}
+.top-navbar{
+	height: 35px!important;
+    padding: 0;
+    margin: 0;
+}
