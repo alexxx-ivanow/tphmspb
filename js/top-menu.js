@@ -1,6 +1,11 @@
 $(document).ready(function(){
-    $("#ddmenu li").click(function(){
-        $(".sub-ddd").slideToggle("slow");
-        $(this).toggleClass("active");
+    
+	$(".but-close").click(function(){
+		$(".sub-ddd").slideUp("slow");
+		 $("#ddmenu li").RemoveClass("active");
+	 });
+	 $("#ddmenu li a").click(function(){
+        $(".sub-ddd").slideDown("slow");
+        $(this).addClass("active");
     });
 });
