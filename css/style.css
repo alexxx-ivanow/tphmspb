@@ -99,9 +99,9 @@ body{
     padding-top: 2px!important;
 }
 
-.left-top-menu {
+/* .left-top-menu {
 	background: rgba(51, 122, 183, 0);
-}
+} */
 
 .navbar-nav .dropdown {
     text-transform: uppercase;
@@ -126,8 +126,12 @@ body{
 .right-top-menu a {
 	color: #fff;
 	text-decoration:none;
+	transition: 0.5s;
 }
-
+.right-top-menu a:hover {
+    color: #8D8686;
+    transition: 0.5s;
+}
 /*верхнее выезжающее меню*/
 #ddmenu {
     width: 250px;
