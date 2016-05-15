@@ -78,13 +78,14 @@ body{
 }
 .top-menu{
 	background:#164c95;
-	height:35px;
-	box-shadow: 0 8px 8px #103568, 0 8px 8px #103568 inset;
+	height: 39px;
+	box-shadow: 0 7px 8px #1C2C41, 0 6px 6px #1C2C41 inset;
 }
 .top-navbar{
+	min-height: 35px!important;
 	height: 35px!important;
-    padding: 0;
-    margin: 0;
+	padding: 0;
+	margin: 0;
 	border: 0;
 }
 .left-top-menu {
@@ -99,10 +100,6 @@ body{
     padding-top: 2px!important;
 }
 
-/* .left-top-menu {
-	background: rgba(51, 122, 183, 0);
-} */
-
 .navbar-nav .dropdown {
     text-transform: uppercase;
 }
@@ -113,7 +110,8 @@ body{
 .right-top-menu {
     display: inline-block;
     float: right;
-    margin-top: -32px;
+    margin-top: -24px;
+    margin-bottom: 0;
 }
 
 .right-top-menu li {
@@ -132,11 +130,12 @@ body{
     color: #8D8686;
     transition: 0.5s;
 }
-/*верхнее выезжающее меню*/
+/*Ð²ÐµÑ€Ñ…Ð½ÐµÐµ Ð²Ñ‹ÐµÐ·Ð¶Ð°ÑŽÑ‰ÐµÐµ Ð¼ÐµÐ½ÑŽ*/
 #ddmenu {
     width: 250px;
-	list-style:none;
-	overflow: hidden;
+    height: 35px;
+    list-style:none;
+    overflow: hidden;
 }
 
 #ddmenu li a {
@@ -149,12 +148,13 @@ body{
 	background:#1a529e;
 }
 
-#ddmenu li:hover > a { color: #7180a0; /*background: #d9e2ee; */text-decoration:none;}
+#ddmenu li:hover > a { color: #7180a0; text-decoration:none;}
 
 #ddmenu ul {
   position: absolute;
   top: 35px;
   left: 0;
+  z-index: 1;
   width: 100%;
   height:72px;
   background: #2563b7;
@@ -162,7 +162,7 @@ body{
   margin: 0;
   padding: 7px 0;
   list-style: none;
-  box-shadow: 0 8px 8px #103568, 0 8px 8px #103568 inset;
+  box-shadow: 0 7px 8px #1C2C41, 0 6px 6px #1C2C41 inset;
 }
 
 #ddmenu ul li { 
@@ -216,4 +216,23 @@ body{
     margin-right: 25px!important;
 	z-index:-1;
 }
-/*верхнее выезжающее меню*/
+/*Ð²ÐµÑ€Ñ…Ð½ÐµÐµ Ð²Ñ‹ÐµÐ·Ð¶Ð°ÑŽÑ‰ÐµÐµ Ð¼ÐµÐ½ÑŽ*/
+
+#jq-dropdown-1 {
+    height: 35px;
+}
+#myCarousel {
+    margin-top: 4px;
+}
+#ddmenu {
+    margin-bottom: 0!important;
+}
+.carousel-control .icon-prev:before {
+    content: url(../img/slider/main-prev.png)!important;
+}
+.carousel-control .icon-next:before {
+    content: url(../img/slider/main-next.png)!important;
+}
+.carousel-control:hover, .carousel-control:focus{
+	transition:0.5s;
+}

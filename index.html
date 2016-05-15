@@ -11,6 +11,7 @@
     <link href="css/bootstrap.css" rel="stylesheet">
 	<link href="css/font-awesome.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/full-slider.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -39,7 +40,7 @@
 					<form action="">
 						<input type="text" placeholder="Поиск по сайту">
 						<i class="fa fa-search" aria-hidden="true"></i>
-						<input type="submit" style="background-image: url(img/submit-top.png);">
+						<input type="submit"> <!-- style="background-image: url(img/submit-top.png);" -->
 					</form>
 					<p class="top-phone-up">Заказать звонок</p>
 					<p class="top-phone"><span class="tp-1">+7 (812) </span><span class="tp-2">332-10-53</span></p>
@@ -82,10 +83,72 @@
 					</div>
 		</div>
 	</nav>
+	
+	<header id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <!--ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol-->
+
+        <!-- Wrapper for Slides -->
+        <div class="carousel-inner">
+            <div class="item active">                
+				                				
+                <!-- <div class="carousel-caption">
+					<h2>Caption 1</h2>
+					<h4>Description 1</h4>
+                    <a class="btn btn-default modal-w" href="#" role="button">Заказать</a>
+				    <a class="btn btn-default" href="#" role="button">Подробнее</a>
+                </div> -->
+				<div class="fill" style="background-image:url('img/slider/img1.jpg');"></div>
+            </div>
+            <div class="item">
+                <!-- Set the second background image using inline CSS below. -->
+                <!--div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Two');"></div-->
+				<div class="fill" style="background-image:url('img/slider/img2.jpg');"></div>
+                <!-- <div class="carousel-caption">
+                    <h2>Caption 2</h2>
+					<h4>Description 2</h4>
+					<a class="btn btn-default modal-w" href="#" role="button">Заказать</a>
+					<a class="btn btn-default" href="#" role="button">Подробнее</a>
+                </div> -->
+            </div>
+            <div class="item">
+                <!-- Set the third background image using inline CSS below. -->
+                <!--div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Three');"></div-->
+				<div class="fill" style="background-image:url('img/slider/img1.jpg');"></div>
+                <!-- <div class="carousel-caption">
+                    <h2>Caption 3</h2>
+					<h4>Description 3</h4>
+					<a class="btn btn-default modal-w" href="#" role="button">Заказать</a>
+					<a class="btn btn-default" href="#" role="button">Подробнее</a>
+                </div> -->
+            </div>
+        </div>
+
+        
+
+    </header>
+	<!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+	
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.js"></script>
+	<script>
+		$('.carousel').carousel({
+			interval: 5000 //changes the speed
+		})
+    </script>
+	
     <script src="js/top-menu.js"></script>
   </body>
 </html>
