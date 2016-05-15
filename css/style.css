@@ -236,3 +236,30 @@ body{
 .carousel-control:hover, .carousel-control:focus{
 	transition:0.5s;
 }
+.obraschenie{
+	background:#164c95;
+	height:93px;
+	margin-top:35px;
+}
+.obraschenie>div>div>div{
+	height:93px;
+	color:#dae9fc;
+}
+.obr1{	
+	font-size: 12px;
+    text-transform: uppercase;
+    margin-top: 12px;
+    margin-bottom: 0;
+}
+.obr2{
+	font-size:26px;
+}
+.obr-main-center {
+    font-size: 13px;
+    margin-top: 10px;
+    line-height: 1.3;
+    color: #fff;
+}
+.obr-main-right img {
+    margin-top: -33px;
+}
