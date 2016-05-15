@@ -209,7 +209,7 @@ body{
     height: 25px;
     border: none;
     margin-top: 9px;
-    margin-right: 0!important;
+    margin-right: 25px!important;
 	z-index:-1;
 }
 /*верхнее выезжающее меню*/
