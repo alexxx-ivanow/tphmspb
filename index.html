@@ -12,6 +12,8 @@
 	<link href="css/font-awesome.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/full-slider.css" rel="stylesheet">
+    <link href="css/style-demo.css" rel="stylesheet">
+	
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -88,15 +90,15 @@
         <!-- Wrapper for Slides -->
         <div class="carousel-inner">
             <div class="item active">                
-				<div class="fill" style="background-image:url('img/slider/img1.jpg');"></div>
+				<div class="fill" style="background-image:url('http://lorempixel.com/1920/1080/technics/1');"></div>
             </div>
             <div class="item">
                 <!-- Set the second background image using inline CSS below. --> 
-				<div class="fill" style="background-image:url('img/slider/img2.jpg');"></div>                
+				<div class="fill" style="background-image:url('http://lorempixel.com/1920/1080/technics/2');"></div>                
             </div>
             <div class="item">
                 <!-- Set the third background image using inline CSS below. -->          
-				<div class="fill" style="background-image:url('img/slider/img1.jpg');"></div>                
+				<div class="fill" style="background-image:url('http://lorempixel.com/1920/1080/technics/3');"></div>                
             </div>
         </div>
     </header>
@@ -128,6 +130,63 @@
 			</div>
 		</div>
 	</div>
+	<div class="container main-maid">
+		<div class="row">
+			<h3>НАШИ ОБЪЕКТЫ</h3>
+			<div class="col-lg-6 col-md-6 objects-one">
+				<div>
+					<div class="car-image1">
+						<span></span>
+						<img src="http://lorempixel.com/246/128/technics" alt="">
+					</div>
+					<div class="car-description">
+						<p>Проектирование слаботочных систем</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-6 col-md-6 objects-one">
+				<div>
+					<div class="car-image1">
+						<span></span>
+						<img src="http://lorempixel.com/246/128/technics" alt="">
+					</div>
+					<div class="car-description">
+						<p>Проектирование слаботочных систем</p>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		<div class="row">
+			<h3>ЛИЦЕНЗИИ</h3>
+			<div id="jcl-demo" class="container">
+				<div class="custom-container nonCircular">
+					<a href="#" class="prev">&lsaquo;</a>
+					<div class="carousel">
+						<ul>
+							<li><a href="#"><img src="http://lorempixel.com/250/180/technics"></a></li>
+							<li><a href="#"><img src="http://lorempixel.com/250/180/technics"></a></li>
+							<li><a href="#"><img src="http://lorempixel.com/250/180/technics"></a></li>
+							<li><a href="#"><img src="http://lorempixel.com/250/180/technics"></a></li>
+							<li><a href="#"><img src="http://lorempixel.com/250/180/technics"></a></li>
+							<li><a href="#"><img src="http://lorempixel.com/250/180/technics"></a></li>
+							<li><a href="#"><img src="http://lorempixel.com/250/180/technics"></a></li>
+							<li><a href="#"><img src="http://lorempixel.com/250/180/technics"></a></li>
+							<li><a href="#"><img src="http://lorempixel.com/250/180/technics"></a></li>
+							<li><a href="#"><img src="http://lorempixel.com/250/180/technics"></a></li>
+							<li><a href="#"><img src="http://lorempixel.com/250/180/technics"></a></li>
+						</ul>
+					</div>
+					<a href="#" class="next">&rsaquo;</a>
+					<div class="clear"></div>
+				</div>
+				
+			</div>
+			
+			<p class="carousel-description">Компания ООО “ТПХМ” более 6 лет существует на рынке и оказывает следующие услуги:</p>
+			
+		</div>
+	</div>
 	
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -137,8 +196,19 @@
 		$('.carousel').carousel({
 			interval: 5000 //changes the speed
 		})
-    </script>
-	
+    </script>	
     <script src="js/top-menu.js"></script>
+    <script src="js/jCarouselLite.js"></script>
+	<script>
+	$(".nonCircular .carousel").jCarouselLite({
+    btnNext: ".nonCircular .next",
+    btnPrev: ".nonCircular .prev",
+	auto: 5000,
+    speed: 800,
+	visible: 4
+    //circular: false,
+	
+    });
+	</script>
   </body>
 </html>

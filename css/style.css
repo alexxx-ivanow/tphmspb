@@ -256,10 +256,50 @@ body{
 }
 .obr-main-center {
     font-size: 13px;
-    margin-top: 10px;
+    margin-top: 13px;
     line-height: 1.3;
     color: #fff;
 }
 .obr-main-right img {
     margin-top: -33px;
+}
+.main-maid h3 {
+    text-align: center;
+    color: #2563b7;
+    font-size: 18px;
+    margin-top: 30px;
+}
+.objects-one{
+	margin-bottom:25px;
+}
+
+.objects-one>div{
+	height:137px;
+	border-top:3px solid #124b99;
+	border-bottom: 1px solid #124b99;
+}
+.car-description {
+    color: #231f20;
+    position: relative;
+    font-size: 12px;
+    display: table;
+    text-transform: uppercase;
+}
+.objects-one>div>div {
+    width: 47%;
+    margin-top: 2px;
+    float: left;
+}
+
+.car-image1>span{
+	background:url('../img/fire-carousel1.png') no-repeat;
+	position:absolute;
+	width:66px;
+	height:42px;
+}
+.car-description p {
+	display: table-cell;
+	vertical-align: middle;
+	height: 137px;
+	padding-left: 25px;
 }
