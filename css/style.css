@@ -238,11 +238,11 @@ body{
 }
 .obraschenie{
 	background:#164c95;
-	height:93px;
+	min-height:93px;
 	margin-top:35px;
 }
 .obraschenie>div>div>div{
-	height:93px;
+	/* height:93px; */
 	color:#dae9fc;
 }
 .obr1{	

@@ -1,0 +1,59 @@
+@media (max-width: 1200px){
+	.top-phone .tp-2{
+		font-size:29px;
+	}
+	.top-up input[type="submit"]{
+		margin-top:-20px;
+	}
+	.top-up .fa-search{
+		margin-top:-20px;
+	}
+	.top-menu>div{
+		width:960px;
+	}
+	#ddmenu {
+    padding-left: 5px;
+    }
+	.right-top-menu li {
+    margin-right: 11px;
+    }
+	.sub-ddd>div {
+    width: 960px;
+	}
+
+	#ddmenu ul li {
+		padding: 0px;
+		margin: 4px;
+	}
+
+	.but-close {
+		margin-top: -2px;
+	}
+	
+	.obraschenie>div>div>div {
+    height: 100%;
+	}
+
+	.obr-main-right img {
+		display: none;
+	}
+	.top-email {
+    display: none;
+	}
+
+	.top-phone {
+		width: 216px;
+	}
+
+	.top-phone .tp-2 {
+		padding-top: 11px;
+	}
+
+	.top-address {
+		width: 250px;
+		margin-left: 30px;
+	}
+		.obr-main-center p {
+		width: 500px;
+	}
+}
