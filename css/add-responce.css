@@ -56,4 +56,14 @@
 		.obr-main-center p {
 		width: 500px;
 	}
+		.car-description-three {
+		padding: 5px;
+		height: 35%;
+	}
+	#center-form input, #center-form textarea{
+		width:71%;
+	}
+		.main-form {
+		width: 85%;
+	}
 }
