@@ -446,6 +446,9 @@ body{
 	margin-left:-15px;
 	margin-top:15px;
 }
+.dropdown-backdrop {
+    display: none;
+}
 
 .license {
     background: url('../img/fire-sub.png') no-repeat;
