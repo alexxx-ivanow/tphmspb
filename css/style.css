@@ -140,6 +140,20 @@ body{
     overflow: hidden;
 }
 
+
+.square-dropdown.navbar-header {
+    display: none;
+    float: right;
+    top: 31%;
+    right: 10%;
+    position: absolute;
+	cursor:pointer;
+}
+
+.square-dropdown.navbar-header img {
+    width: 21px;
+}
+
 #ddmenu li a {
   display: block;
   float: left;
@@ -295,6 +309,7 @@ body{
 .car-description {
     color: #231f20;
     position: relative;
+	padding-top: 14px;
     font-size: 12px;
     display: table;
     text-transform: uppercase;
@@ -402,10 +417,15 @@ body{
     height: 100px;
     background: #2563B7;
 }
+
+.footer-img {
+    display: none;
+}
+
 .footer-row {
     width: 870px;
     margin: 0 auto;
-    height: 100px;
+    /* height: 100px; */
 }
 .footer-row>div {
     padding-left: 0;
@@ -418,4 +438,18 @@ body{
     text-align: right;
     padding-right: 0;
 	padding-top: 40px;
+}
+.footer-img{
+	display:inline-block;
+	position:absolute;
+	left:50%;
+	margin-left:-15px;
+	margin-top:15px;
+}
+
+.license {
+    background: url('../img/fire-sub.png') no-repeat;
+    background-position: 10px 10px;
+    background-color: #2563b7;
+    min-height: 180px;
 }

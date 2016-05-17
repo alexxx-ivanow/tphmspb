@@ -216,7 +216,7 @@
 }
 .objects-two .item, .objects-three .item {
     min-height: 180px; 
-    background: #2563b7;
+    /* background: #2563b7; */
 }
 .license-fire img {
     width: 22px!important;

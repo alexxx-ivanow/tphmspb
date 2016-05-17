@@ -5,7 +5,13 @@ $(document).ready(function(){
 		 $("#ddmenu li").removeClass("active");
 	 });
 	 $("#ddmenu li a").click(function(){
-        $(".sub-ddd").slideDown("slow");
+        $(".sub-ddd").slideToggle("slow");
+        $(this).addClass("active");
+    });
+	$(".square-dropdown").click(function(){
+        $(".sub-ddd").slideToggle("slow");
         $(this).addClass("active");
     });
 });
+
+
