@@ -181,6 +181,30 @@
 	
 }
 
+@media (max-width: 770px){
+	.footer {
+		height: 140px;
+	}
+		.top-phone .tp-2 {
+		font-size: 26px;
+	}
+	.top-phone .tp-1 {
+		margin-left: -205px!important;
+		margin-top: 15px!important;
+		position: absolute!important;
+		}
+
+	.top-phone .tp-2 {
+		margin-left: -151px!important;
+		margin-top: 104px!important;
+		position: absolute!important;
+	}
+		.footer-row>div {
+		text-align: center!important;
+	}
+}
+
+
 @media (max-width: 720px){
 	.main-form {
 		width: 100%;
@@ -188,6 +212,10 @@
 		#center-form input, #center-form textarea {
 		width: 66%;
 	}
+	.top-address {
+		display: none;
+	}
+	
 }
 
 @media (max-width: 520px){
@@ -223,9 +251,7 @@
 	.obraschenie {
 		margin-top: 190px;
 	}
-		.footer {
-		height: 140px;
-	}
+		
 		.owl-controls {
 		display: none;
 	}

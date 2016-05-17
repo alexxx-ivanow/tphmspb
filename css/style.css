@@ -4,6 +4,8 @@ body{
 
 .top-up{
 	background:#f2f8ff;
+	overflow-x: hidden;
+	overflow-y: hidden;
 }
 .top-up .col-lg-3{	
 	height:137px;
