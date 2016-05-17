@@ -180,3 +180,78 @@
 	}
 	
 }
+
+@media (max-width: 720px){
+	.main-form {
+		width: 100%;
+	}
+		#center-form input, #center-form textarea {
+		width: 66%;
+	}
+}
+
+@media (max-width: 520px){
+	
+	#center-form input, #center-form textarea {
+		display:block;
+		margin: 0 2%;
+		position: relative;
+		margin-top: 6px;
+		width: 96%;
+		float: none;
+	}
+		#center-form label {
+		display: block;
+		position: relative;
+		width: 100%;
+		text-align: left;
+		/* margin-left: 0; */
+		margin-bottom: 7px;
+		padding-left: 8px;
+	}
+		.top-address {
+		display: none;
+	}
+		#myCarousel {
+		display: none;
+	}
+
+	.carousel-control {
+		display: none;
+	}
+
+	.obraschenie {
+		margin-top: 190px;
+	}
+		.footer {
+		height: 140px;
+	}
+		.owl-controls {
+		display: none;
+	}
+		.about-main {
+		padding: 0;
+		margin: 0 auto;
+		width: 95%;
+	}
+		.parts-desc {
+		padding: 0;
+	}
+}
+
+@media (max-width: 420px){
+	.top-search {
+		display: none;
+	}
+
+	.top-address {
+		display: none;
+	}
+
+	.top-up img {
+		margin-top: 21px;
+		position: relative;
+		left: -50%;
+		margin-left: 77px;
+	}
+}

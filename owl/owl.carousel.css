@@ -215,7 +215,7 @@
   z-index: 1;
 }
 .objects-two .item, .objects-three .item {
-    height: 180px;
+    min-height: 180px; 
     background: #2563b7;
 }
 .license-fire img {
@@ -248,7 +248,7 @@
     margin: 0 auto;
 }
 .objects-three .item {
-    height: 208px;
+    /* height: 208px; */
 }
 
 .car-description-three {

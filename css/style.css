@@ -313,7 +313,7 @@ body{
 .car-description p {
 	display: table-cell;
 	vertical-align: middle;
-	height: 137px;
+	/* height: 137px; */
 	padding-left: 25px;
 }
 .about-main {
