@@ -386,6 +386,7 @@ body{
 
 #center-form textarea {
     height: 60px;
+    float: none;
 }
 
 #center-form {

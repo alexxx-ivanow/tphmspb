@@ -330,3 +330,55 @@
 .main-maid {
     margin-top: 170px;
 }
+.owl-carousel-three{
+    width:100%;
+}
+.owl-carousel-zero.owl-carousel.owl-theme.owl-responsive-0.owl-loaded {
+    width: 90%;
+    margin: 0 auto;
+}
+.car-description p {
+    padding-left: 5%;
+    width: 90%;
+    font-size: 10px;
+    margin-top: -5px;
+    display: block;
+}
+
+.car-description {
+    width: 44%!important;
+}
+.top-up img {
+    margin-left: 8px;
+    margin-top: 25px;
+    width: 106px;
+}
+.top-search {
+    display: block;
+}
+.top-phone-up {
+    display: none;
+}
+
+.top-phone span {
+    margin: 0;
+    display: inline-block!important;
+    float: right!important;
+    position: relative!important;
+    right: 0;
+}
+.tp-2 {
+    top: -61px!important;
+    position: relative!important;
+    font-size: 30px!important;
+    margin-right: -15px!important;
+}
+
+.tp-1 {
+    top: 19px!important;
+    margin-right: -15px!important;
+}
+.top-up .col-lg-3 {
+    height: 110px;
+}
+}
