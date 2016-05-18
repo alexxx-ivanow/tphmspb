@@ -179,9 +179,9 @@
 		margin: 0;
 		display: inline-block;
 	}
-	.square-dropdown.navbar-header {
+	/*.square-dropdown.navbar-header {
 		display: inline-block;
-	}
+	}*/
 		.footer.container-fluid .row {
 		height: 57px!important;
 	}
@@ -226,6 +226,13 @@
 		.footer.container-fluid .row {
 		height: 57px!important;
 	}
+	.square-dropdown.navbar-header {
+    display: inline-block;
+    }
+    .right-top-menu{
+        display:none;
+        box-shadow: 0 7px 8px #1C2C41, 0 6px 6px #1C2C41 inset;
+    }
 		
 }
 
@@ -274,7 +281,7 @@
 	}
 
 	.obraschenie {
-		margin-top: 110px;
+		margin-top: 20px;
 	}
 		
 		.owl-controls {
@@ -288,6 +295,11 @@
 		.parts-desc {
 		padding: 0;
 	}
+	.top-up img {
+    margin-left: 20px;
+    margin-top: 25px;
+    width: 106px;
+}
 }
 
 @media (max-width: 490px){
@@ -295,7 +307,7 @@
 		display:none;
 	}
 		.main-maid {
-		margin-top: 138px;
+		margin-top: 10px;
 	}
 }
 
@@ -317,6 +329,39 @@
 		#ddmenu>li>a {
 		margin-left: 10px;
 	}
+		.top-search {
+    display: block;
+}
+.top-phone-up {
+    display: none;
+}
+
+.top-phone span {
+    margin: 0;
+    display: inline-block!important;
+    float: right!important;
+    position: relative!important;
+    right: 0;
+}
+.tp-2 {
+    top: -61px!important;
+    position: relative!important;
+    font-size: 30px!important;
+    margin-right: -15px!important;
+}
+
+.tp-1 {
+    top: 19px!important;
+    margin-right: -15px!important;
+}
+.top-up .col-lg-3 {
+    height: 110px;
+}
+.top-up img {
+    margin-left: 20px;
+    margin-top: 25px;
+    width: 106px;
+}
 	
 }
 
@@ -328,7 +373,7 @@
 
 @media (max-width: 320px){
 .main-maid {
-    margin-top: 170px;
+    margin-top: 17px;
 }
 .owl-carousel-three{
     width:100%;
@@ -348,7 +393,7 @@
 .car-description {
     width: 44%!important;
 }
-.top-up img {
+/*.top-up img {
     margin-left: 8px;
     margin-top: 25px;
     width: 106px;
@@ -380,5 +425,5 @@
 }
 .top-up .col-lg-3 {
     height: 110px;
-}
+}*/
 }

@@ -9,9 +9,12 @@ $(document).ready(function(){
         $(this).addClass("active");
     });
 	$(".square-dropdown").click(function(){
-        $(".sub-ddd").slideToggle("slow");
+        $(".right-top-menu").slideToggle("slow");
         $(this).addClass("active");
     });
 });
 
-
+$(window).load(function(){
+	$(".car-description-three").css({"background":"#2563B7","color":"#fff"});
+	
+});
