@@ -185,6 +185,13 @@
 		.footer.container-fluid .row {
 		height: 57px!important;
 	}
+	.contacts-form{
+		padding-left:0;
+		padding-right:0;
+	}
+		.crumps {
+		padding-left: 15px;
+	}
 	
 }
 
@@ -233,6 +240,11 @@
         display:none;
         box-shadow: 0 7px 8px #1C2C41, 0 6px 6px #1C2C41 inset;
     }
+	.right-top-menu li {
+		margin-bottom:20px;
+		width: 100%;
+	}
+	
 		
 }
 
@@ -247,7 +259,18 @@
 	.top-address {
 		display: none;
 	}
-	
+	.contacts-map,.contacts-form{
+		display:none;
+	}
+	.left-sidebar-ul {
+    display: none;
+	}
+
+	.right-sidebar {
+		width: 100%;
+	}
+	.left-sidebar-uslug{display:none;}
+	.right-sidebar-uslug{width:100%;}
 }
 
 @media (max-width: 520px){
@@ -299,7 +322,26 @@
     margin-left: 20px;
     margin-top: 25px;
     width: 106px;
-}
+	}
+	/* .page-content {
+    padding-left: 5px!important;
+    padding-right: 5px!important;
+	} */
+
+	.page-content .col-lg-6.col-md-6.col-sm-12.col-xs-12 {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.right-sidebar>div>div{
+		width:100%;
+		padding: 0;
+	}
+	.work-item.col-lg-3.col-md-3.col-sm-6.col-xs-6 {
+		width: 100%;
+	}
+	.row.work-description {
+		width: 90%;
+	}
 }
 
 @media (max-width: 490px){
